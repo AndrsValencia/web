@@ -1,0 +1,47 @@
+<html>
+<head> 
+<title> Registrarse</title>
+<meta charset = "utf-8">
+<link rel="stylesheet" href="CSS/style_registro.css">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body>
+<?php
+include_once("INCLUDES/database.php");
+session_start();
+
+?>
+<header>
+            <div id="nombre" class="user">
+            <?php
+					echo "<h1>Amazing Backpacks</h1>";
+					?>
+            </div>
+	</div>
+</header>
+
+<!-- /*Formulario que se encarga de enviar información del nuevo usuario a crear estudiante que se encarga
+de subir esta información a la base de datos*/ -->
+<br>
+<br>
+<h1>Registro</h1>
+  
+  <div class="contenedor">
+
+<form action="INCLUDES/crearUsuario.php" method ="POST" class="registro">
+   <div class="usu">
+   <label>Name:</label><input type="text" name="nombre" ><br>
+   <label>Lastname:</label><input type="text" name="apellido"><br>
+   <label>Email:</label><input type="text" name="correo"><br>
+   <label>User</label><input type="text" name="usuario"><br>
+   <label>Password:</label><input type="text" name="contrasena"><br>
+   <label>telefono:</label><input type="text" name="movil"><br>
+   <label>direccion:</label><input type="text" name="direccion"><br>
+   <label>pais:</label><input type="text" name="pais"><br>
+   <input type="submit" value="Registrarse">
+   </div>
+</form>
+</div>
+</body>
+</html>
