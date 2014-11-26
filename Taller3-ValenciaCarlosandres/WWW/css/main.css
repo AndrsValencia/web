@@ -1,0 +1,59 @@
+
+
+body {
+      padding-top: 50px;
+      padding-bottom: 20px;
+      background-color: #87D37C;
+    }
+#cajaSoltar{
+border: 2px solid #999999;
+float: left;
+width: 100%;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+#cajaImagenes{
+	float: left;
+	margin: 20px;
+
+}
+
+#cajaImagenes>img{
+	float: left;
+	padding: 5px;
+	width: 50%;
+}
+
+#map_canvas{
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 70%;
+	height:70%;
+
+}
+
+#lienzo{
+	width: 100%;
+	border: 2px dashed #ccc;
+}
+
+#texto{
+position: absolute;
+margin-top: 135%;
+margin-left: 25%;
+color: rgba(23,23,23,.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
